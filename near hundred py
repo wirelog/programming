@@ -1,0 +1,10 @@
+def near_hundred(n):
+    dif = 10
+    if n > 110:
+        dif = abs(200 - n)
+    else:
+        dif = abs(100 - n)
+    if dif <= 10:
+        return True
+    else:
+        return False
